@@ -32,7 +32,7 @@ Requires `gcc` and `gfortran`. To install (on Mac or Linux) simply clone the rep
 
     make
 
-This will create an execultable called `epiFit`.
+This will create an executable called `epiFit`.
 
 
 ## How to run
