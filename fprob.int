@@ -1,0 +1,15 @@
+!     Last change:  RPW  20 Aug 2009    2:03 pm
+
+INTERFACE
+  SUBROUTINE fprob(num, denom, ratio, p, q, ier)
+    USE constants_NSWC
+    USE inc_beta
+    IMPLICIT NONE
+    INTEGER, INTENT(IN)    :: num, denom
+    REAL (dp), INTENT(IN)  :: ratio
+    INTEGER, INTENT(OUT)   :: ier
+    REAL (dp), INTENT(OUT) :: p, q
+  END SUBROUTINE fprob
+END INTERFACE
+
+
